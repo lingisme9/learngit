@@ -2,7 +2,7 @@
 
 ##  ubandtu下使用git：
 
-**1.安装**：`sudo apt-get install git`
+1.**安装**：`sudo apt-get install git`
 
 **2.配置git**
 	1.`git config --global user.name “github昵称”`
@@ -37,7 +37,7 @@
 
 3.`git commit -m “描述提交了啥”`
 
-4.绑定远程仓库
+4.**绑定远程仓库**
 
 ​	1.新建远程仓库，连readme都不要有
 
@@ -47,7 +47,7 @@
 
 ​	4.只要做了本地提交就可以，`git push origin master`
 
-5.删除文件
+5.**删除文件**
 
 ​	一般情况下，你通常直接在文件管理器中把没用的文件删了，或者用`rm`命令删了：
 
@@ -81,7 +81,7 @@ $ git commit -m "remove test.txt"
  delete mode 100644 test.txt
 ```
 
-现在，文件就从版本库中被删除了。
+现在，文件就从版本库中被删除了。然后push本地仓库
 
 
 
